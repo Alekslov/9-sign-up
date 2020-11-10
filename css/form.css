@@ -23,6 +23,11 @@
             width: 100%;
             font-size: 18px;
             line-height: 25px;
+            border: none;
+            border-bottom: 1px solid grey;
+        }
+        .input:focus {
+            outline: 2px solid #0069ba;
         }
         
         .form-row > .text {
@@ -37,5 +42,9 @@
             padding: 10px;
             line-height: 20px;
             font-size: 18px;
-            color: darkblue;
+            color: darkblue;            
+            
+        }
+        .form-row > .link:hover {
+            color: red;
         }
