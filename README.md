@@ -16,7 +16,6 @@ Design: [Sign up modal](https://cdn.discordapp.com/attachments/64853613967795815
 - position absolute
 - form
 - background images
-- miau miau
 
 ## Authors
 [Aleksandra](https://github.com/alekslov)
