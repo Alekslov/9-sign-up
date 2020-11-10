@@ -8,4 +8,9 @@
     border-radius: 20px;
     background-color: pink;
     color:white;
+    box-shadow: 0 4px 8px darkgray;
+}
+.btn:hover {
+    box-shadow: 0 4px 8px grey;
+    cursor: pointer;
 }
