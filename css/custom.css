@@ -1,65 +1,67 @@
 body {
-
+    background-color: aqua;
 }
-
-    .container {
+   .container {
         display: inline-block;
         width: 800px;
         margin-top: 100px;
-        margin-left: calc((100% - 800px) /2);
-
-
+        margin-left: calc((100% - 800px) / 2);
+        position: relative;
     }
         .left-column {
             display:inline-block;
             width: 40%;
             float: left;
-            margin-top: 20px;
-            
+            padding:40px;
+            padding-bottom: 20px;
+            /* margin-top: 20px; */
+            color: white;
+            background-color:lightblue;
+            position: absolute;
+            top: 30px;
+            bottom: 30px;
 
         }
             .page-title {
-
+                display: inline-block;
+                width: 100%;
             }
             .bottom-links {
-
+                display: inline-block;
+                width: 100%;
+                position: absolute;
+                bottom: 20px;
+                left: 40px;
+                right: 40px;
+                    
+               
             }
                 .bottom-links > .link {
+                    color: white;
+                    
 
                 }
                 .bottom-links > .text {
-
+                    color: white;  
+                    
                 }
         .right-column {
             background-color: white;
             display:inline-block;
             width: 60%;
-            float: left;
+            float: right;
             padding: 60px;
-            /* width: calc(60% - 120px - 120px); */
+            position: relative;
+            
         }
             .close {
-
-            }
-            .form {
-
-            }
-                .form-row {
-
-                }
-                    .label {
-
-                    }
-                    .input {
-
-                    }
-                    .btn {
-
-                    }
-                    .form-row > .text {
-
-                    }
-                    
-                    .form-row > .link {
-
-                    }
+                display: inline-block;
+                width: 60px;
+                line-height: 60px;
+                background-color: white;
+                position: absolute;
+                top: 0;
+                right: 0;
+                text-align: center;
+                font-size: 30px;
+            }            
